@@ -3,3 +3,70 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: sans-serif;
+  background-color: #f7f8fc;
+  color: #fff;
+}
+
+.title {
+  text-align: center;
+  color: #000;
+}
+
+.container {
+  max-width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto;
+  background-color: #0a4191;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.input,
+.select {
+  width: 80%;
+  text-align: center;
+  padding: 0.5rem 0;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+#knapsack-content,
+#knapsack-state {
+  width: 80%;
+  min-height: 10rem;
+  border: 1px solid #000;
+}
+
+#knapsack-state {
+  display: flex;
+  flex-direction: column;
+  min-height: 5rem;
+  padding: 0 0.5rem;
+}
+
+#knapsack-content {
+  padding: 0 0.5rem;
+}
+
+.sub-title {
+  text-align: center;
+  border-bottom: 1px solid #000;
+  margin-bottom: 0.5rem;
+  padding: 0.2rem 0;
+}
+
+#done-btn {
+  border: none;
+  border-radius: 0.2rem;
+  background-color: #f8a925;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  font-weight: 900;
+  cursor: pointer;
+}

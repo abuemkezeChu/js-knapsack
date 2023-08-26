@@ -7,6 +7,21 @@
   <title>js-knapsack</title>
 </head>
 <body>
+  <h1 class="title">Knapsack</h1>
+  <main class="container">
+    <input class="input" type="text" id="capacity" placeholder="enter max weight in kg">
+    <select class="select" id="options" >
+    </select>
+    <div id="knapsack-content">
+      <p class="sub-title">Knapsack Content</p>
+    </div>
+    <div id="knapsack-state">
+      <p class="sub-title">Realtime Status</p>
+      <p id="total-weight"></p>
+      <p id="max-weight"></p>
+    </div>
+    <button id="done-btn">Done</button>
+  </main>
   <script src="assets/scripts/knapsack.js"></script>
 </body>
 </html>
